@@ -93,7 +93,11 @@ header h4 {
         -webkit-transition: all 0.3s ease-out;
     }
 }
-
+@media (min-width: 769px) {
+    #yes, #no {
+        width: auto; /* Regular width buttons on larger screens */
+    }
+}
 .swal2-backdrop-show {
     background-size: 200px 100px !important;
 }
